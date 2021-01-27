@@ -170,12 +170,12 @@ CONFIG.statusEffects = [
     {
       id: "dodging",
       label: "Dodging",
-      icon: "modules/conditions5e/icons/svg/dodging.svg"
+      icon: "modules/conditions5e/icons/dodging.svg"
     },
     {
       id: "hasted",
       label: "Hasted",
-      icon: "modules/conditions5e/icons/svg/haste.svg"
+      icon: "modules/conditions5e/icons/haste.svg"
     },
 ];
   

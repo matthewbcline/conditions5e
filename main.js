@@ -111,8 +111,8 @@ CONFIG.statusEffects = [
     },
     {
       id: "inspired",
-      label: "Inspired",
-      icon: "modules/conditions5e/icons/inspiration(2).svg"
+      label: "Bardic Inspiration",
+      icon: "modules/conditions5e/icons/musical-notes.svg"
     },
     {
       id: "asleep",
@@ -165,6 +165,17 @@ CONFIG.statusEffects = [
       id: "wing",
       label: "Flying",
       icon: "icons/svg/wing.svg"
+    },
+    
+    {
+      id: "dodging",
+      label: "Dodging",
+      icon: "icons/svg/dodging.svg"
+    },
+    {
+      id: "hasted",
+      label: "Hasted",
+      icon: "icons/svg/haste.svg"
     },
 ];
   

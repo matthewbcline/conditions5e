@@ -3,45 +3,169 @@
  * @type {Array}
  */
 CONFIG.statusEffects = [
-  "modules/conditions5e/icons/dead.svg",
-  "modules/conditions5e/icons/unconscious.svg",
-  "modules/conditions5e/icons/stunned.svg",
-  "modules/conditions5e/icons/exhaustion1.svg",
+    {
+      id: "dead",
+      label: "Dead",
+      icon: "modules/conditions5e/icons/dead.svg"
+    },
+    {
+      id: "unconscious",
+      label: "Unconscious",
+      icon: "modules/conditions5e/icons/unconscious.svg"
+    },
+    {
+      id: "stun",
+      label: "Stunned",
+      icon: "modules/conditions5e/icons/stunned.svg"
+    },
+    {
+      id: "exhaustion1",
+      label: "Exhausted (1)",
+      icon: "modules/conditions5e/icons/exhaustion1.svg"
+    },
+    {
+      id: "incapacitated",
+      label: "Incapacitated",
+      icon: "modules/conditions5e/icons/incapacitated.svg"
+    },
+    {
+      id: "paralysis",
+      label: "Paralyzed",
+      icon: "modules/conditions5e/icons/paralyzed.svg",
+    },
+    {
+      id: "petrified",
+      label: "Petrified",
+      icon: "modules/conditions5e/icons/petrified.svg",
+    },
+    {
+      id: "exhaustion2",
+      label: "Exhausted (2)",
+      icon: "modules/conditions5e/icons/exhaustion2.svg"
+    },
+    {
+      id: "grappled",
+      label: "Grappled",
+      icon: "modules/conditions5e/icons/grappled.svg",
+    },
+    {
+      id: "restrain",
+      label: "Restrained",
+      icon: "modules/conditions5e/icons/restrained.svg",
+    },
+    {
+      id: "prone",
+      label: "Prone",
+      icon: "modules/conditions5e/icons/prone.svg"
+    },
+    {
+      id: "exhaustion3",
+      label: "Exhausted (3)",
+      icon: "modules/conditions5e/icons/exhaustion3.svg"
+    },
+    {
+      id: "charmed",
+      label: "Charmed",
+      icon: "modules/conditions5e/icons/charmed.svg"
+    },
+    {
+      id: "fear",
+      label: "Frightened",
+      icon: "modules/conditions5e/icons/frightened.svg"
+    },
+    {
+      id: "poison",
+      label: "Poisoned",
+      icon: "modules/conditions5e/icons/poisoned.svg"
+    },
+    {
+      id: "exhaustion4",
+      label: "Exhausted (4)",
+      icon: "modules/conditions5e/icons/exhaustion4.svg"
+    },
+    {
+      id: "blind",
+      label: "Blinded",
+      icon: "modules/conditions5e/icons/blinded.svg"
+    },
+    {
+      id: "deaf",
+      label: "Deafened",
+      icon: "modules/conditions5e/icons/deafened.svg"
+    },
+    {
+      id: "disease",
+      label: "Diseased",
+      icon: "modules/conditions5e/icons/diseased.svg"
+    },
+    {
+      id: "exhaustion5",
+      label: "Exhausted (5)",
+      icon: "modules/conditions5e/icons/exhaustion5.svg"
+    },
 
-  "modules/conditions5e/icons/incapacitated.svg",
-  "modules/conditions5e/icons/paralyzed.svg",
-  "modules/conditions5e/icons/petrified.svg",
-  "modules/conditions5e/icons/exhaustion2.svg",
-
-  "modules/conditions5e/icons/grappled.svg",
-  "modules/conditions5e/icons/restrained.svg",
-  "modules/conditions5e/icons/prone.svg",
-  "modules/conditions5e/icons/exhaustion3.svg",
-
-  "modules/conditions5e/icons/charmed.svg",
-  "modules/conditions5e/icons/frightened.svg",
-  "modules/conditions5e/icons/poisoned.svg",
-  "modules/conditions5e/icons/exhaustion4.svg",
-
-  "modules/conditions5e/icons/blinded.svg",
-  "modules/conditions5e/icons/deafened.svg",
-  "modules/conditions5e/icons/diseased.svg",
-  "modules/conditions5e/icons/exhaustion5.svg",
-
-  "modules/conditions5e/icons/concentrating.svg",
-  "modules/conditions5e/icons/inspiration.svg",
-  "icons/svg/sleep.svg",
-  "icons/svg/angel.svg",
+    {
+      id: "concentrating",
+      label: "Concentrating",
+      icon: "modules/conditions5e/icons/concentrating.svg"
+    },
+    {
+      id: "inspired",
+      label: "Inspired",
+      icon: "modules/conditions5e/icons/inspiration.svg"
+    },
+    {
+      id: "asleep",
+      label: "Asleep",
+      icon: "icons/svg/sleep.svg"
+    },
+    {
+      id: "blessed",
+      label: "Blessed",
+      icon: "icons/svg/angel.svg"
+    },
   
-  "icons/svg/mage-shield.svg",
-  "icons/svg/holy-shield.svg",
-  "icons/svg/upgrade.svg",
-  "icons/svg/downgrade.svg",
-  
-  "icons/svg/target.svg",
-  "icons/svg/eye.svg",
-  "icons/svg/silenced.svg",
-  "icons/svg/wing.svg"
+    {
+      id: "mage-shield",
+      label: "Shielded (Mage)",
+      icon: "icons/svg/mage-shield.svg"
+    },
+    {
+      id: "holy-shield",
+      label: "Shielded (Holy)",
+      icon: "icons/svg/holy-shield.svg"
+    },
+    {
+      id: "empowered",
+      label: "Empowered",
+      icon: "icons/svg/upgrade.svg"
+    },
+    {
+      id: "depowered",
+      label: "Depowered",
+      icon: "icons/svg/downgrade.svg"
+    },
+
+    {
+      id: "targeted",
+      label: "Targeted",
+      icon: "icons/svg/target.svg"
+    },
+    {
+      id: "eye",
+      label: "Marked",
+      icon: "icons/svg/eye.svg"
+    },
+    {
+      id: "silenced",
+      label: "Silenced",
+      icon: "icons/svg/silenced.svg"
+    },
+    {
+      id: "wing",
+      label: "Flying",
+      icon: "icons/svg/wing.svg"
+    },
 ];
   
 // Condition Types

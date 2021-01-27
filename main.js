@@ -107,12 +107,12 @@ CONFIG.statusEffects = [
     {
       id: "concentrating",
       label: "Concentrating",
-      icon: "modules/conditions5e/icons/concentrating.svg"
+      icon: "modules/conditions5e/icons/concentrating(2).svg"
     },
     {
       id: "inspired",
       label: "Inspired",
-      icon: "modules/conditions5e/icons/inspiration.svg"
+      icon: "modules/conditions5e/icons/inspiration(2).svg"
     },
     {
       id: "asleep",

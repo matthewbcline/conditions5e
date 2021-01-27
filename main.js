@@ -26,7 +26,22 @@ CONFIG.statusEffects = [
   "modules/conditions5e/icons/blinded.svg",
   "modules/conditions5e/icons/deafened.svg",
   "modules/conditions5e/icons/diseased.svg",
-  "modules/conditions5e/icons/exhaustion5.svg"
+  "modules/conditions5e/icons/exhaustion5.svg",
+
+  "modules/conditions5e/icons/concentrating.svg",
+  "modules/conditions5e/icons/inspiration.svg",
+  "icons/svg/sleep.svg",
+  "icons/svg/angel.svg",
+  
+  "icons/svg/mage-shield.svg",
+  "icons/svg/holy-shield.svg",
+  "icons/svg/upgrade.svg",
+  "icons/svg/downgrade.svg",
+  
+  "icons/svg/target.svg",
+  "icons/svg/eye.svg",
+  "icons/svg/silenced.svg",
+  "icons/svg/wing.svg"
 ];
   
 // Condition Types
@@ -53,12 +68,27 @@ CONFIG.conditionTypes = {
   "restrained": "Restrained",
   "stunned": "Stunned",
   "unconscious": "Unconscious",
-  "wounded": "Wounded"
+  "wounded": "Wounded",
+  "concentrating": "Concentrating",
+  "inspiration": "Inspired",
+  "sleep": "Asleep",
+  "angel": "Blessed",
+  "mage-shield.svg": "Shielded",
+  "holy-shield.svg": "Holy Shield",
+  "upgrade.svg": "Empowered",
+  "downgrade.svg": "Depowered",
+  
+  "target.svg": "Targeted",
+  "eye.svg": "Marked",
+  "silenced.svg": "Silenced",
+  "wing.svg": "Flying"
 };
 
 // Replace selected control icons
 CONFIG.controlIcons.visibility = "modules/conditions5e/icons/invisible.svg";
 CONFIG.controlIcons.defeated = "modules/conditions5e/icons/dead.svg";
+
+/*
 
 // Patch CombatTracker to work with token HUD overlay
 Hooks.once("ready", function() {
@@ -97,3 +127,4 @@ Hooks.on("updateToken", (scene, sceneID, update, tokenData, userId) => {
 Hooks.on("updateActor", (entity, updated) => {
   if (entity.owner) entity.getActiveTokens(true).map(x => x._updateHealthOverlay(x));
 });
+*/

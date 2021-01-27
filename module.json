@@ -10,7 +10,7 @@
   "scripts": ["main.js", "patchlib.js"],
   "styles": [],
   "packs": [],
-  "url": "https://github.com/trdischat/conditions5e",
-  "manifest": "https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json",
-  "download": "https://github.com/trdischat/conditions5e/archive/master.zip"
+  "url": "https://github.com/matthewbcline/conditions5e",
+  "manifest": "https://raw.githubusercontent.com/matthewbcline/conditions5e/master/module.json",
+  "download": "https://github.com/matthewbcline/conditions5e/archive/master.zip"
 }
